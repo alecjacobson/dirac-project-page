@@ -1,6 +1,6 @@
 title:  A Dirac Operator for Extrinsic Shape Analysis
 author: Hsueh-Ti Derek Liu, Alec Jacobson, Keenan Crane  
-html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/dirac/dirac-teaser.jpg" />
+html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/dirac/dirac-teaser.png" />
 <meta property="og:description" content="The eigenfunctions and eigenvalues of
 the Laplace-Beltrami operator have proven to be a powerful tool for digital
 geometry processing, providing a description of geometry that is essentially
