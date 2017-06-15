@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>A Dirac Operator for Extrinsic Shape Analysis</title>
+	<meta name="author" content="Hsueh-Ti Derek Liu, Alec Jacobson, Keenan Crane"/>
+<meta property="og:image" content="http://www.dgp.toronto.edu/projects/dirac/dirac-teaser.jpg" />
+<meta property="og:description" content="The eigenfunctions and eigenvalues of
+the Laplace-Beltrami operator have proven to be a powerful tool for digital
+geometry processing, providing a description of geometry that is essentially
+independent of coordinates or the choice of discretization. However, since
+Laplace-Beltrami is purely intrinsic it struggles to capture important
+phenomena such as extrinsic bending, sharp edges, and fine surface texture. We
+introduce a new extrinsic differential operator called the relative Dirac
+operator, leading to a family of operators with a continuous trade-off between
+intrinsic and extrinsic features. Previous operators are either fully or
+partially intrinsic. In contrast, the proposed family spans the entire
+	<meta name="spectrum" content="from completely intrinsic (depending only on the metric) to
+completely extrinsic (depending only on the Gauss map). By adding an infinite
+potential well to this (or any) operator we can also robustly handle surface
+patches with irregular boundary. We explore use of these operators for a
+variety of shape analysis tasks, and study their performance relative to
+operators previously found in the geometry processing literature.&quot; /&gt;"/>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h1 id="adiracoperatorforextrinsicshapeanalysissgp2017">A Dirac Operator for Extrinsic Shape Analysis <em>SGP 2017</em></h1>
+<div class=authors>
+
+<p>Hsueh-Ti Derek Liu¹, Alec Jacobson², Keenan Crane¹ </p>
+
+<p>¹Carnegie Mellon University, ²University of Toronto</p>
+</div>
+
+<figure>
+<img src="dirac-teaser.png" alt="Not all differential operators encode the same information about shape. Here
+ we visualize eigenfunctions of Laplace-Beltrami (left) which ignores
+ extrinsic bending, and our relative Dirac operator (right) which
+ ignores intrinsic stretching. In between is a continuous spectrum of
+ operators that provide a trade off between intrinsic and extrinsic features.
+ Bottom: These operators yield very different shape descriptors, here
+ emphasizing either a pointy claw with large Gauss curvature (left)
+ or the flat back of a shell with small mean curvature
+ (right)." />
+<figcaption>Not all differential operators encode the same information about shape. Here
+ we visualize eigenfunctions of Laplace-Beltrami <em>(left)</em> which ignores
+ extrinsic bending, and our relative Dirac operator <em>(right)</em> which
+ ignores intrinsic stretching. In between is a continuous spectrum of
+ operators that provide a trade off between intrinsic and extrinsic features.
+ <em>Bottom:</em> These operators yield very different shape descriptors, here
+ emphasizing either a pointy claw with large Gauss curvature <em>(left)</em>
+ or the flat back of a shell with small mean curvature
+ <em>(right)</em>.</figcaption>
+</figure>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The eigenfunctions and eigenvalues of the Laplace-Beltrami operator have proven
+to be a powerful tool for digital geometry processing, providing a description
+of geometry that is essentially independent of coordinates or the choice of
+discretization. However, since Laplace-Beltrami is purely intrinsic it
+struggles to capture important phenomena such as extrinsic bending, sharp
+edges, and fine surface texture. We introduce a new extrinsic differential
+operator called the <em>relative Dirac operator</em>, leading to a family of operators
+with a continuous trade-off between intrinsic and extrinsic features. Previous
+operators are either fully or partially intrinsic. In contrast, the proposed
+family spans the entire spectrum: from completely intrinsic (depending only on
+the metric) to completely extrinsic (depending only on the Gauss map). By
+adding an infinite potential well to this (or any) operator we can also
+robustly handle surface patches with irregular boundary. We explore use of
+these operators for a variety of shape analysis tasks, and study their
+performance relative to operators previously found in the geometry processing
+literature.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+<li><a href="a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-liu-et-al.pdf">Paper</a></li>
+<li><a href="a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-compressed-liu-et-al.pdf">Paper (low res)</a></li>
+</ul>
+
+<h2 id="bibtex">BibTeX</h2>
+
+<pre><code>@article{Liu:Dirac:2017,
+  title = {A Dirac Operator for Extrinsic Shape Analysis},
+  author = {Hsueh-Ti Derek Liu, Alec Jacobson, Keenan Crane},
+  year = {2017},
+  journal = {Computer Graphics Forum}, 
+}
+</code></pre>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Lucas Schuermann participated in an early version of this project. This work
+was funded in part by NSF Award 1319483 (under an REU supplement), NSERC
+Discovery Grants (RGPIN&#8211;2017&#8211;05235 &amp; RGPAS&#8211;2017&#8211;507938), the Connaught Fund, a
+gift from Adobe Systems Inc., and a gift from Autodesk, Inc.</p>
+
+</body>
+</html>
