@@ -64,17 +64,27 @@ literature.
  - [Paper (low res)](a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-compressed-liu-et-al.pdf)
  - [Code in gptoolbox](http://github.com/alecjacobson/gptoolbox), see
    `dirac_operator.m`, `relative_dirac_operator.m` and `dirac_eigs.m`
+ - [Patch Dataset](patch-dataset.zip)
 
 ## BibTeX
 
 ```
 @article{Liu:Dirac:2017,
   title = {A Dirac Operator for Extrinsic Shape Analysis},
-  athor = {Hsueh-Ti Derek Liu, Alec Jacobson, Keenan Crane},
+  author = {Hsueh-Ti Derek Liu, Alec Jacobson, Keenan Crane},
   year = {2017},
   journal = {Computer Graphics Forum}, 
 }
 ```
+
+## Patch Dataset
+
+[![](patches.jpg)](patch-dataset.zip)
+
+To enable further testing of methods for geometric texture classification, we have
+released our [patch dataset](patch-dataset.zip).
+
+
 ## Acknowledgements 
 
 Lucas Schuermann participated in an early version of this project.  This work
