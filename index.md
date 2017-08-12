@@ -62,6 +62,7 @@ literature.
 
  - [Paper](a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-liu-et-al.pdf)
  - [Paper (low res)](a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-compressed-liu-et-al.pdf)
+ - [Slides](a-dirac-operator-for-extrinsic-shape-analysis-objects-sgp-2017-slides.pdf)
  - [Code in gptoolbox](http://github.com/alecjacobson/gptoolbox), see
    `dirac_operator.m`, `relative_dirac_operator.m` and `dirac_eigs.m`
  - [Patch Dataset](patch-dataset.zip)
